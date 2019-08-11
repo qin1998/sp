@@ -1,0 +1,46 @@
+<extend name="Base/common" />
+<block name="content">
+       <!-- 大图 -->
+        <div>
+           <img src="__HS__\img\1.jpg"style="display:block;" width="100%;"alt="">
+       </div>
+<div class="zy">
+   <div class="video wd1024">
+       <div class="sp">视频中心</div>
+       <div class="sp_SP">VIDEO CENTER</div>
+   </div>
+   <div class="h_r  wd1024"></div>
+
+   <div class="ku11z wd1024">
+        <volist name="news_list" id="vo">
+            <div class="image_im">
+                <a href="{:U('video_detail', ['id' => $vo['id']])}" style="display:block;margin:0;padding:0;">
+                <div class="tutui">
+                    <div class="padding">
+                        <div class="tu1" ><img src="{$vo.cover_img}"alt=""></div>
+                        <div class="img2">
+                            <div class="colour1">
+                                <eq name="langs" value="zh">
+                                <h4 class="barr">{$vo.title}</h4>
+                                <div class="shouu">{$vo.description}</div>
+                                </eq>
+                                <eq name="langs" value="en">
+                                    <h4 class="barr">{$vo.en_title}</h4>
+                                    <div class="shouu">{$vo.en_description}</div>
+                                </eq>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </volist>
+        <div style="clear:both;"></div>   
+    </div>    
+               
+           
+          
+
+   <div class="enddd"></div>
+
+</block>

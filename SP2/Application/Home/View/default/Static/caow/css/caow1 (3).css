@@ -1,0 +1,115 @@
+.bar{
+    width:1024px;
+    /* height:100px; */
+    /* background-color:red; */
+    margin:0 auto;
+}
+
+
+/* 大背景色 */
+.back_ground{
+     width:100%; 
+    background-color:#f5f5f5;
+}
+
+
+.gk{
+    width:100%;
+    height:50px;
+    /* background-color:red; */
+}
+
+
+
+.gkk{
+    width:100%;
+    height:20px;
+    /* background-color:red; */
+}
+.prounduct_one{
+    text-align:center;
+    font-size:160%;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+
+
+.prounduct_two{
+    text-align:center;
+    font-size:110%;
+    letter-spacing:2px;
+    line-height: 30px;
+    font-weight:bold;
+
+}
+/* 第四大块 */
+
+
+.bar0{
+    width:1024px;
+     /* height:1px;  */
+     /* background-color:red;  */
+    margin:0 auto;
+    display: flex;
+    padding:20px;
+}
+
+.font_size{
+    font-size:110%;
+    font-weight:bold;
+ 
+}
+
+/* .photo_frame1 img{
+     /* margin:0 10px; */
+    
+}
+
+
+ */
+
+.ba{
+    width:100px;
+    height:20px;
+    /* background-color:brown; */
+}
+
+.bai{
+    width:60px;
+    height:2px;
+    background-color:#006699;
+}
+
+
+.baii{
+    widows: 60px;
+    height:19px;
+     /* background-color:red;  */
+}
+.photo_frame{
+    float:left;
+}
+
+
+.boy{
+font-size:95%;
+line-height:25px;
+margin:15px 0;
+}
+
+
+
+/* 第五块 */
+.stan_dard{
+    width:1024px;
+    /* height:200px; */
+    background-color:red;
+    margin:0 auto;
+}
+
+.on_1{
+    width:600px;
+    height:100px;
+    border:1px solid blueviolet;
+/* background-color:blue;  */
+}

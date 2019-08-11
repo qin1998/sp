@@ -1,0 +1,150 @@
+[ 2019-07-27T11:17:46+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025619s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041677s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.076970s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.077026s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0190s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.421117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.421170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036522s ]
+
+[ 2019-07-27T13:57:58+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034477s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.059705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.094305s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.129272s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.129332s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.9011s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0659s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0274s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.681797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.681870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.035502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035648s ]
+
+[ 2019-07-27T13:59:18+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020140s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025105s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.058797s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.058858s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0337s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.501828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.501905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015226s ]
+
+[ 2019-07-27T13:59:19+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005557s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004840s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004928s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0277s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2019-07-27T13:59:19+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003192s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006173s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003452s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003515s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0256s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000712s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+

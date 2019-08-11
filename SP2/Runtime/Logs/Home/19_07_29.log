@@ -1,0 +1,764 @@
+[ 2019-07-29T10:33:04+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008989s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013351s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.047874s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.047948s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0056s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037338s ]
+
+[ 2019-07-29T10:34:21+08:00 ] ::1 /caow/index.php?s=/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002185s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006598s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006889s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0055s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2019-07-29T10:34:29+08:00 ] ::1 /caow/index.php?s=/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004654s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003020s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003067s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0066s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2019-07-29T10:34:33+08:00 ] ::1 /caow/index.php?s=/index/video.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003151s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002687s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002745s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0069s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 208 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\6ca94c4a07db8988bf84f6a0625c5caa.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\6ca94c4a07db8988bf84f6a0625c5caa.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2019-07-29T10:34:36+08:00 ] ::1 /caow/index.php?s=/index/connects.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008245s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.008317s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0075s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\50dc0f76a3ee2144802bd837d4082e6f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\50dc0f76a3ee2144802bd837d4082e6f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2019-07-29T10:36:13+08:00 ] ::1 /caow/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003598s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003709s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0067s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2019-07-29T10:38:11+08:00 ] ::1 /caow/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002892s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003076s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0057s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2019-07-29T12:33:37+08:00 ] ::1 /caow/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008837s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012624s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.048033s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.048153s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0072s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015442s ]
+
+[ 2019-07-29T13:26:56+08:00 ] ::1 /caow/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006023s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009643s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.050453s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.050537s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0077s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014264s ]
+
+[ 2019-07-29T13:51:36+08:00 ] ::1 /caow/index.php?s=/index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012116s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.019435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031680s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.057450s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.057531s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0096s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.206945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024019s ]
+
+[ 2019-07-29T13:51:47+08:00 ] ::1 /caow/index.php?s=/index/news_detail/id/1210.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003200s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003291s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0061s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\173ea1bf22414f9f3e9e67877ca2b3ee.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\173ea1bf22414f9f3e9e67877ca2b3ee.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2019-07-29T14:09:11+08:00 ] ::1 /caow/index.php?s=/index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006278s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.045483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.051939s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.037658s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.038315s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0094s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013087s ]
+
+[ 2019-07-29T14:26:12+08:00 ] ::1 /caow/index.php?s=/index/video.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017189s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.026724s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.026838s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0047s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 208 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\6ca94c4a07db8988bf84f6a0625c5caa.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\6ca94c4a07db8988bf84f6a0625c5caa.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.164735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009327s ]
+
+[ 2019-07-29T14:26:16+08:00 ] ::1 /caow/index.php?s=/index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004321s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007968s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.008047s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0053s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002512s ]
+
+[ 2019-07-29T14:26:20+08:00 ] ::1 /caow/index.php?s=/index/connects.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008349s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005803s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005873s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0041s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\50dc0f76a3ee2144802bd837d4082e6f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\50dc0f76a3ee2144802bd837d4082e6f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004704s ]
+
+[ 2019-07-29T14:26:23+08:00 ] ::1 /caow/index.php?s=/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004261s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014794s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.014813s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.014894s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0085s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007326s ]
+
+[ 2019-07-29T14:26:26+08:00 ] ::1 /caow/index.php?s=/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004899s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004984s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0088s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2019-07-29T14:26:28+08:00 ] ::1 /caow/index.php?s=/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002826s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009997s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.010104s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0066s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 144 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\caow\Application\Home\Controller\IndexController.class.php 第 153 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001811s ]
+
+[ 2019-07-29T16:23:06+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009362s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.057184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.066652s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.107058s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.107117s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0969s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0181s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.459701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.459778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017563s ]
+
+[ 2019-07-29T16:56:57+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009585s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.046621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056322s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.072728s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.072827s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0245s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.323082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.323145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.042047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.042156s ]
+
+[ 2019-07-29T16:57:02+08:00 ] ::1 /caow/index.php?s=/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003596s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.009026s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.009083s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0283s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003085s ]
+
+[ 2019-07-29T18:50:01+08:00 ] ::1 /caow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009328s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.046694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056128s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.075386s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.075455s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.2703s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.372021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.372124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015947s ]
+
+[ 2019-07-29T18:53:44+08:00 ] ::1 /caow/index.php?s=/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004463s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005294s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0263s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\dd9652edf3ac87da8f78c1e26ac38cc8.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2019-07-29T18:54:01+08:00 ] ::1 /caow/index.php?s=/index/connects.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002115s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0223s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: meta_keywords D:\phpStudy\WWW\caow\Runtime\Cache\Home\50dc0f76a3ee2144802bd837d4082e6f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description D:\phpStudy\WWW\caow\Runtime\Cache\Home\50dc0f76a3ee2144802bd837d4082e6f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+

@@ -1,0 +1,36 @@
+<nav id="nav-mobile">
+    <div class="scrollbar-inner">
+        
+        <button type="button" class="navbar-btn-close"><i class="ion ion-close"></i>Close</button>
+        
+        <div class="navbar-menu">
+          <ul class="nav">
+                <li class="menu-item">
+                  <a href="{:U('Index/index')}">{$Think.lang.home}</a>
+                    
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="{:U('Index/about_us')}">{$Think.lang.about_us}</a><span>+</span>
+                  <ul class="sub-menu">
+                        <li class="menu-item"><a href="{:U('Index/about_us')}">{$Think.lang.company_desc}</a></li>
+                        <li class="menu-item"><a href="{:U('Index/about_us')}#2">{$Think.lang.vr}</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                    <a href="{:U('Index/product_list')}">{$Think.lang.products}</a><span>+</span>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="{:U('Index/product_list', array('is_new_arrival' => 1))}">{$Think.lang.new_products}</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="{:U('Index/certificates')}">{$Think.lang.certificates}</a>
+                    
+                </li>
+                <li class="menu-item">
+                    <a href="{:U('Index/contact_us')}">{$Think.lang.contact_us}</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</nav>

@@ -1,0 +1,22 @@
+<extend name="Base/common" />
+<block name="content">
+    <div>
+        <img src="__HS__\img\1.jpg"style="display:block;" width="100%;"alt="">
+    </div>
+<!-- 第二块 -->
+    <div class="paodu">
+        <div class="paoduy">新闻详情</div>
+        <div class="paoduyy">NEWS DETAIL</div>
+        <div class="jiu"></div>
+    </div>
+    <div class="product-detail">   
+            <eq name="langs" value="zh">
+        <div class="product-title">{$news_detail.title}</div>
+        <div class="product-content">{$news_detail.content}</div>
+        </eq>
+        <eq name="langs" value="en">
+            <div class="product-title">{$news_detail.en_title}</div>
+            <div class="product-content">{$news_detail.en_content}</div>
+        </eq>
+    </div>
+</block>

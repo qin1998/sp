@@ -1,0 +1,366 @@
+[ 2017-05-28T15:33:51+08:00 ] ::1 /hanchuan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T15:37:30+08:00 ] ::1 /hanchuan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `ct_hooks` [ RunTime:0.1070s ]
+SQL: SELECT `name`,`addons` FROM `ct_hooks`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0190s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop','AdFloat')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('Fancybox','SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam','QiuBai','Weather')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('UploadImages')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('BaiduShare')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('SyncLogin')  [ RunTime:0.0010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.249014s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.249014s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T15:38:06+08:00 ] ::1 /hanchuan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.051003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.063004s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.058003s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.058003s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.230013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.047003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060003s ]
+
+[ 2017-05-28T15:38:10+08:00 ] ::1 /hanchuan/index.php?s=/index/pro_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\hanchuan\Application\Home\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\3f42887e45b191c93eb15c817e5aad7d.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\3f42887e45b191c93eb15c817e5aad7d.php 第 9 行.
+SQL: SELECT * FROM `ct_product_category` WHERE `pid` = 1 AND `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_product_category` WHERE `pid` = 3 AND `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_picture` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T15:38:11+08:00 ] ::1 /hanchuan/index.php?s=/index/pro_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id`,`content` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ct_product_category` WHERE `pid` = 1 AND `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_product_category` WHERE `pid` = 3 AND `status` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_picture` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-28T15:39:23+08:00 ] ::1 /hanchuan/index.php?s=/index/feed_back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\1d4e91dac00f9438b2df2daed9801adb.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\1d4e91dac00f9438b2df2daed9801adb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T15:40:24+08:00 ] ::1 /hanchuan/index.php?s=/index/contact_us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T15:40:25+08:00 ] ::1 /hanchuan/index.php?s=/index/feed_back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\1d4e91dac00f9438b2df2daed9801adb.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\1d4e91dac00f9438b2df2daed9801adb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-28T15:41:09+08:00 ] ::1 /hanchuan/index.php?s=/index/pro_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\hanchuan\Application\Home\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\3f42887e45b191c93eb15c817e5aad7d.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\3f42887e45b191c93eb15c817e5aad7d.php 第 9 行.
+SQL: SELECT * FROM `ct_product_category` WHERE `pid` = 1 AND `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_product_category` WHERE `pid` = 3 AND `status` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_picture` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ct_picture` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-28T15:41:09+08:00 ] ::1 /hanchuan/index.php?s=/index/feed_back.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\1d4e91dac00f9438b2df2daed9801adb.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\hanchuan\Runtime\Cache\Home\1d4e91dac00f9438b2df2daed9801adb.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-28T15:46:06+08:00 ] ::1 /hanchuan/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.052003s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.052003s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0130s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

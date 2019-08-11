@@ -1,0 +1,949 @@
+[ 2017-08-26T08:49:22+08:00 ] ::1 /matai/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `ct_hooks` [ RunTime:0.0750s ]
+SQL: SELECT `name`,`addons` FROM `ct_hooks`  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0625s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop','AdFloat')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('Fancybox','SocialComment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam','QiuBai','Weather')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('UploadImages')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('BaiduShare')  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`name` FROM `ct_addons` WHERE `status` = 1 AND `name` IN ('SyncLogin')  [ RunTime:0.0000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.187503s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.187503s ]
+
+[ 2017-08-26T08:49:22+08:00 ] ::1 /matai/index.php?s=/admin/public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:49:33+08:00 ] ::1 /matai/index.php?s=/admin/public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: COT_DB_TYPE F:\phpStudy\WWW\matai\Application\User\Conf\config.php 第 14 行.
+NOTIC: [8] Undefined index: COT_DB_HOST F:\phpStudy\WWW\matai\Application\User\Conf\config.php 第 15 行.
+NOTIC: [8] Undefined index: COT_DB_NAME F:\phpStudy\WWW\matai\Application\User\Conf\config.php 第 16 行.
+NOTIC: [8] Undefined index: COT_DB_USER F:\phpStudy\WWW\matai\Application\User\Conf\config.php 第 17 行.
+NOTIC: [8] Undefined index: COT_DB_PWD F:\phpStudy\WWW\matai\Application\User\Conf\config.php 第 18 行.
+NOTIC: [8] Undefined index: COT_DB_PORT F:\phpStudy\WWW\matai\Application\User\Conf\config.php 第 19 行.
+NOTIC: [8] Undefined index: COT_DB_PREFIX F:\phpStudy\WWW\matai\Application\User\Conf\config.php 第 20 行.
+NOTIC: [8] Undefined index: lite F:\phpStudy\WWW\matai\ThinkPHP\Library\Think\Db.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `ct_member` [ RunTime:0.0543s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`money`,`avatar`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `ct_member` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `ct_member` SET `login`=`login`+1,`last_login_time`='1503708573',`last_login_ip`='0' WHERE `uid` = 1 [ RunTime:0.0025s ]
+
+[ 2017-08-26T08:49:34+08:00 ] ::1 /matai/index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_menu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`title`,`url` FROM `ct_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `ct_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ adminIndex ] --START--
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0100s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_action_log` [ RunTime:0.0400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_action_log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_document` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_model` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.250004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.237503s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.690011s ]
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.432507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.440007s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.440007s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.742512s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.485008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.490008s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.052501s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'QiuBai' AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.775012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.520008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.530008s ]
+INFO: Run Addons\QiuBai\QiuBaiAddon [ RunTime:0.037500s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'Weather' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.795013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.540009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.542509s ]
+INFO: Run Addons\Weather\WeatherAddon [ RunTime:0.012501s ]
+INFO: [ adminIndex ] --END-- [ RunTime:0.780012s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.540009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.545009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-26T08:49:35+08:00 ] ::1 /matai/index.php?s=/admin/addons/execute/_addons/qiu_bai/_controller/qiu_bai/_action/getlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`name` FROM `ct_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_menu` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`title`,`url` FROM `ct_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `ct_menu` WHERE ( pid !=0 AND url like '%Addons/execute%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_menu` WHERE `id` = 123 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_menu` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `ct_menu` WHERE `group` <> '' AND `pid` = 5 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`url` FROM `ct_menu` WHERE `pid` = 5 AND `hide` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '系统扩展' AND `pid` = 5 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0025s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.075002s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'QiuBai' AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2017-08-26T08:49:36+08:00 ] ::1 /matai/index.php?s=/admin/addons/execute/_addons/weather/_controller/weather/_action/getlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`name` FROM `ct_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.046200s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0075s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'Weather' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-26T08:49:39+08:00 ] ::1 /matai/index.php?s=/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002501s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `ct_menu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`url` FROM `ct_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0025s ]
+SQL: SELECT `pid` FROM `ct_menu` WHERE ( pid !=0 AND url like '%Article/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `ct_menu` WHERE `group` <> '' AND `pid` = 3 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`url` FROM `ct_menu` WHERE `pid` = 3 AND `hide` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '幻灯管理' AND `pid` = 3 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '文档管理' AND `pid` = 3 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '微博管理' AND `pid` = 3 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '评论管理' AND `pid` = 3 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '标签管理' AND `pid` = 3 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_auth_group_access` [ RunTime:0.2000s ]
+SQL: SELECT `extend_id` FROM ct_auth_group_access g INNER JOIN ct_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0675s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0175s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `ct_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ct_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0075s ]
+SQL: SELECT `extend` FROM `ct_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_attribute` [ RunTime:0.0200s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `ct_attribute` WHERE `model_id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: groups F:\phpStudy\WWW\matai\Application\Admin\Controller\ArticleController.class.php 第 180 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:49:42+08:00 ] ::1 /matai/index.php?s=/admin/config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `ct_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`title`,`url` FROM `ct_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0025s ]
+SQL: SELECT `pid` FROM `ct_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ct_menu` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT DISTINCT  `group` FROM `ct_menu` WHERE `group` <> '' AND `pid` = 2 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`url` FROM `ct_menu` WHERE `pid` = 2 AND `hide` = 0  [ RunTime:0.0025s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '系统设置' AND `pid` = 2 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '数据备份' AND `pid` = 2 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `ct_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-26T08:49:43+08:00 ] ::1 /matai/index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ adminIndex ] --START--
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_action_log` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_action_log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_document` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_model` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.057501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.057501s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.197503s ]
+SQL: select version() as v; [ RunTime:0.0025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.135002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.142502s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.142502s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.210003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.147502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.152502s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.010000s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'QiuBai' AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.220003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.157502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.162502s ]
+INFO: Run Addons\QiuBai\QiuBaiAddon [ RunTime:0.010000s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'Weather' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.225003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002500s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.165002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.167502s ]
+INFO: Run Addons\Weather\WeatherAddon [ RunTime:0.005000s ]
+INFO: [ adminIndex ] --END-- [ RunTime:0.225003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002500s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.165002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.167502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-26T08:49:43+08:00 ] ::1 /matai/index.php?s=/admin/addons/execute/_addons/qiu_bai/_controller/qiu_bai/_action/getlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`name` FROM `ct_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.030001s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'QiuBai' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-26T08:49:44+08:00 ] ::1 /matai/index.php?s=/admin/addons/execute/_addons/weather/_controller/weather/_action/getlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.015600s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0075s ]
+SQL: SELECT `title`,`name` FROM `ct_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.053101s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0075s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'Weather' AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+
+[ 2017-08-26T08:49:44+08:00 ] ::1 /matai/index.php?s=/admin/config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `ct_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:49:45+08:00 ] ::1 /matai/index.php?s=/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_auth_group_access` [ RunTime:0.0075s ]
+SQL: SELECT `extend_id` FROM ct_auth_group_access g INNER JOIN ct_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `ct_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ct_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `extend` FROM `ct_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_attribute` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `ct_attribute` WHERE `model_id` = 1  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: groups F:\phpStudy\WWW\matai\Application\Admin\Controller\ArticleController.class.php 第 180 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:49:46+08:00 ] ::1 /matai/index.php?s=/admin/config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `ct_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:49:47+08:00 ] ::1 /matai/index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ adminIndex ] --START--
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'SiteStat' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_action_log` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_action_log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_document` LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_model` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.062500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Addons\SiteStat\SiteStatAddon [ RunTime:0.060001s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'SystemInfo' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.172502s ]
+SQL: select version() as v; [ RunTime:0.0025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012500s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.102501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.115001s ]
+INFO: Run Addons\SystemInfo\SystemInfoAddon [ RunTime:0.115001s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'DevTeam' AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.190002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.120001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.130002s ]
+INFO: Run Addons\DevTeam\DevTeamAddon [ RunTime:0.015001s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'QiuBai' AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.205003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.135002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.145002s ]
+INFO: Run Addons\QiuBai\QiuBaiAddon [ RunTime:0.015000s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'Weather' AND `status` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.220003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.150002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.157502s ]
+INFO: Run Addons\Weather\WeatherAddon [ RunTime:0.015000s ]
+INFO: [ adminIndex ] --END-- [ RunTime:0.220003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.150002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.160002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-26T08:49:48+08:00 ] ::1 /matai/index.php?s=/admin/addons/execute/_addons/qiu_bai/_controller/qiu_bai/_action/getlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`name` FROM `ct_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.032501s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0050s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'QiuBai' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-26T08:49:48+08:00 ] ::1 /matai/index.php?s=/admin/addons/execute/_addons/weather/_controller/weather/_action/getlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.010001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0125s ]
+SQL: SELECT `title`,`name` FROM `ct_addons` WHERE ( status=1 AND has_adminlist=1 )  [ RunTime:0.0000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000000s ]
+INFO: [ action_begin ] --END-- [ RunTime:-0.042500s ]
+SQL: SHOW COLUMNS FROM `ct_addons` [ RunTime:0.0000s ]
+SQL: SELECT `config` FROM `ct_addons` WHERE `name` = 'Weather' AND `status` = 1 LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2017-08-26T08:49:49+08:00 ] ::1 /matai/index.php?s=/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `extend_id` FROM ct_auth_group_access g INNER JOIN ct_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `ct_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `extend` FROM `ct_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_attribute` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `ct_attribute` WHERE `model_id` = 1  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: groups F:\phpStudy\WWW\matai\Application\Admin\Controller\ArticleController.class.php 第 180 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-26T08:49:50+08:00 ] ::1 /matai/index.php?s=/admin/user/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_menu` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`url` FROM `ct_menu` WHERE `pid` = 0 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `ct_menu` WHERE ( pid !=0 AND url like '%User/index%' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ct_menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `ct_menu` WHERE `group` <> '' AND `pid` = 4 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`url` FROM `ct_menu` WHERE `pid` = 4 AND `hide` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '用户管理' AND `pid` = 4 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '行为管理' AND `pid` = 4 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '消息管理' AND `pid` = 4 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `ct_menu` WHERE `group` = '邮件管理' AND `pid` = 4 AND `hide` = 0 ORDER BY sort asc  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_member` WHERE `status` >= 0 AND `nickname` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`money`,`avatar`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `ct_member` WHERE `status` >= 0 AND `nickname` LIKE '%%' ORDER BY uid desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-26T08:49:53+08:00 ] ::1 /matai/index.php?s=/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `extend_id` FROM ct_auth_group_access g INNER JOIN ct_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `ct_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0025s ]
+SQL: SELECT `extend` FROM `ct_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_attribute` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `ct_attribute` WHERE `model_id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: groups F:\phpStudy\WWW\matai\Application\Admin\Controller\ArticleController.class.php 第 180 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:51:07+08:00 ] ::1 /matai/index.php?s=/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.007500s ]
+SQL: SHOW COLUMNS FROM `ct_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `extend_id` FROM ct_auth_group_access g INNER JOIN ct_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `ct_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `extend` FROM `ct_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_attribute` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `ct_attribute` WHERE `model_id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: groups F:\phpStudy\WWW\matai\Application\Admin\Controller\ArticleController.class.php 第 180 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:51:11+08:00 ] ::1 /matai/index.php?s=/admin/config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `ct_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T08:51:49+08:00 ] ::1 /matai/index.php?s=/admin/article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT `extend_id` FROM ct_auth_group_access g INNER JOIN ct_auth_extend c on g.group_id=c.group_id  WHERE ( g.uid='1' and c.type='1' and !isnull(extend_id) )  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `ct_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pid`,`allow_publish` FROM `ct_category` WHERE `status` = 1 ORDER BY pid,sort  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_model` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_model` WHERE `name` = 'document' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`type`,`update_time`,`status`,`view`,`category_id`,`model_id`,`pid` FROM ct_document DOCUMENT WHERE `status` IN ('0','1','2') AND `pid` = 0 ORDER BY DOCUMENT.id DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `extend` FROM `ct_model` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_attribute` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`name`,`type`,`extra` FROM `ct_attribute` WHERE `model_id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: groups F:\phpStudy\WWW\matai\Application\Admin\Controller\ArticleController.class.php 第 180 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002501s ]
+
+[ 2017-08-26T08:51:54+08:00 ] ::1 /matai/index.php?s=/admin/article/product_category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Admin\Controller\ArticleController.class.php 第 759 行.
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `ct_product_category` ORDER BY sort, createtime desc LIMIT 0,10   [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_product_category` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+SQL: SELECT `pid` FROM `ct_product_category` WHERE `status` = 1 AND `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ct_product_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `pid` FROM `ct_product_category` WHERE `status` = 1 AND `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ct_product_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `ct_product_category` WHERE `status` = 1 AND `id` = 3 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `pid` FROM `ct_product_category` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `pid` FROM `ct_product_category` WHERE `status` = 1 AND `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `ct_product_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-08-26T08:51:56+08:00 ] ::1 /matai/index.php?s=/admin/article/proedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002500s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`pid`,`name`,`name_en`,`is_english`,`description`,`coverid`,`status`,`sort`,`createtime`,`updatetime` FROM `ct_product_category`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Article - assumed 'Article' F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 87 行.
+NOTIC: [8] Use of undefined constant proedit - assumed 'proedit' F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 87 行.
+NOTIC: [2] Division by zero F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 87 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 91 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 99 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 99 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 99 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 99 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 99 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 107 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 110 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 124 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 127 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 134 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 141 行.
+NOTIC: [8] Undefined variable: field F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 158 行.
+NOTIC: [8] Undefined variable: field F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 163 行.
+NOTIC: [8] Undefined variable: data F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 187 行.
+NOTIC: [8] Undefined variable: is_edit F:\phpStudy\WWW\matai\Runtime\Cache\Admin\0923807dca472d9018ba379c6ffaea5e.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-26T16:21:48+08:00 ] ::1 /matai/index.php?s=/admin/public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.026001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.026001s ]
+SQL: SHOW COLUMNS FROM `ct_member` [ RunTime:0.1380s ]
+
+[ 2017-08-26T16:21:49+08:00 ] ::1 /matai/index.php?s=/admin/public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

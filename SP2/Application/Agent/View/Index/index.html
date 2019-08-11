@@ -1,0 +1,52 @@
+<extend name="Public/base"/>
+
+<block name="content">
+<div class="row">
+    <div class="col-12">
+      <!-- Recent Order Table -->
+      <div class="card card-table-border-none" id="recent-orders">
+        <div class="card-body pt-0 pb-5">
+          <table class="table card-table table-responsive table-responsive-large" style="width:100%">
+            <thead>
+              <tr>
+                <th>微信用户</th>
+                <th>手机号</th>
+                <th class="d-none d-md-table-cell">用户数</th>
+                <th class="d-none d-md-table-cell">地区</th>
+                <th class="d-none d-md-table-cell">注册时间</th>
+                <th>最近登录</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td >fgdsgfds</td>
+                  <td >fgsdgdsfgs</td>
+                  <td >
+                    <a class="text-dark" href=""> sfdsgsdgsd</a>
+                  </td>
+                  <td class="d-none d-md-table-cell">sfgdsgsdf</td>
+                  <td class="d-none d-md-table-cell">hgfdhgf</td>
+                  <td class="d-none d-md-table-cell">yfdsgds</td>
+                  <td class="text-right">
+                    <div class="dropdown show d-inline-block widget-dropdown">
+                      <a class="dropdown-toggle icon-burger-mini" href="" role="button" id="dropdown-recent-order1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static"></a>
+                      <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-recent-order1">
+                        <li class="dropdown-item">
+                          <a href="{:U('role_index', ['mall_user_id' => $vo['id']])}">用户管理</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+</block>
+<block name="script">
+  <script type="text/javascript">
+  highlight_leftmenu('{:U("index")}');
+</script>
+</block>

@@ -1,0 +1,34 @@
+<extend name="Base/common" />
+<block name="content">
+            <div><img src="__HS__\img\1.jpg" width="100%;"alt=""></div>
+        <div class="ji"></div>
+
+        <!-- 第三块 -->
+<div class="prouduct_center">
+    <div class="prounduct_one">NEWS</div>
+    <div class="prounduct_two">NEWS AND INFORMATION</div>
+</div>
+<div class="da_K">
+    <div class="waic">
+        <volist name="news_list" id="vo">
+        <div class="News_style">
+            <div class="zitk">
+                <a href="{:U('news_detail', ['id' => $vo['id']])}" style="display:block;margin:0;padding:0;">
+                <eq name="langs" value="zh">
+                <samp class="Font_part">&nbsp;&nbsp;{$vo.title}</samp><samp class="font-part2">&nbsp;&nbsp;{$vo.create_time}</samp>
+                <div class="Worldwide">{$vo.description}</div>
+                <div class="New_type">{$vo.description}</div>
+                </eq>
+                <eq name="langs" value="en">
+                <samp class="Font_part">&nbsp;&nbsp;{$vo.en_title}</samp><samp class="font-part2">&nbsp;&nbsp;{$vo.create_time}</samp>
+                <div class="Worldwide">{$vo.en_description}</div>
+                <div class="New_type">{$vo.en_description}</div>
+                </eq>
+
+            </div>
+        </a>
+        </div>
+    </div> 
+    </volist>
+</div>    
+</block>

@@ -1,0 +1,443 @@
+[ 2019-06-24T09:51:11+08:00 ] ::1 /huagang/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.054003s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.054003s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0460s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.030002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.030002s ]
+
+[ 2019-06-24T09:54:05+08:00 ] ::1 /huagang/index.php?s=/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-06-24T10:02:36+08:00 ] ::1 /huagang/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-06-24T10:02:42+08:00 ] ::1 /huagang/index.php?s=/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2019-06-24T10:02:50+08:00 ] ::1 /huagang/index.php?s=/index/products/id/1794.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2019-06-24T10:05:39+08:00 ] ::1 /huagang/index.php?s=/index/product_detail/id/28682.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 226 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\huagang\Runtime\Cache\Home\c277e14b007901cbb4daff21847662d9.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\huagang\Runtime\Cache\Home\c277e14b007901cbb4daff21847662d9.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-06-24T10:07:47+08:00 ] ::1 /huagang/index.php?s=/index/cooperation.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\huagang\Runtime\Cache\Home\82a386624dbe3628a9d2d1b94615fa1b.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\huagang\Runtime\Cache\Home\82a386624dbe3628a9d2d1b94615fa1b.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-06-24T10:07:51+08:00 ] ::1 /huagang/index.php?s=/index/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\huagang\Runtime\Cache\Home\b0a70440513c9fac61dceba2b9a80715.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\huagang\Runtime\Cache\Home\b0a70440513c9fac61dceba2b9a80715.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-06-24T10:07:57+08:00 ] ::1 /huagang/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-06-24T10:08:07+08:00 ] ::1 /huagang/index.php?s=/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 116 行.
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\huagang\Application\Home\Controller\IndexController.class.php 第 126 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\huagang\Runtime\Cache\Home\4792558c740cf25e3300ce46ed2aa3e0.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-06-24T10:08:12+08:00 ] ::1 /huagang/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2019-06-24T14:50:28+08:00 ] ::1 /huagang/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036002s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.073004s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.073004s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0780s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.362020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.362020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.053003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.053003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.116007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.116007s ]
+
+[ 2019-06-24T16:53:05+08:00 ] ::1 /huagang/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.086005s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.087005s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.1290s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.284017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.284017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.060003s ]
+
+[ 2019-06-24T16:53:05+08:00 ] ::1 /huagang/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

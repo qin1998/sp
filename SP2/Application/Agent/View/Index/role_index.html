@@ -1,0 +1,56 @@
+<extend name="Public/base"/>
+
+<block name="content">
+<div class="row">
+    <div class="col-12">
+      <!-- Recent Order Table -->
+      <div class="card card-table-border-none" id="recent-orders">
+        <div class="card-body pt-0 pb-5">
+          <table class="table card-table table-responsive table-responsive-large" style="width:100%">
+            <thead>
+              <tr>
+                <th>用户</th>
+                <th>头像</th>
+                <th class="d-none d-md-table-cell">性别</th>
+                <th class="d-none d-md-table-cell">年龄</th>
+                <th class="d-none d-md-table-cell">生日</th>
+                <th>身高</th>
+                <th>称重次数</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+                <volist name="_list" id="vo">
+                  <tr>
+                    <td >{$vo.name}</td>
+                    <td ><img src="{$vo.avatarimg}" style="width: 50px;" /></td>
+                    <td >
+                      {$vo.sex}
+                    </td>
+                    <td class="d-none d-md-table-cell">{$vo.age}</td>
+                    <td class="d-none d-md-table-cell">{$vo.date}</td>
+                    <td class="d-none d-md-table-cell">{$vo.height_index + 70}cm</td>
+                    <td class="d-none d-md-table-cell">{$vo.health_count}</td>
+                    <td class="text-right">
+                      <div class="dropdown show d-inline-block widget-dropdown">
+                        <a class="dropdown-toggle icon-burger-mini" href="" role="button" id="dropdown-recent-order1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static"></a>
+                        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-recent-order1">
+                          <li class="dropdown-item">
+                            <a href="{:U('health_index', ['mall_user_id' => $vo['mall_user_id'],'role_id' => $vo['id']])}">健康管理</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </td>
+                  </tr>
+                </volist>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  </div>
+</block>
+<block name="script">
+  <script type="text/javascript">
+  highlight_leftmenu('{:U("index")}');
+</script>
+</block>

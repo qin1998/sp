@@ -1,0 +1,1742 @@
+[ 2017-08-09T13:31:35+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.096005s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.096005s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.1630s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0880s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-08-09T13:31:48+08:00 ] ::1 /matai/index.php?s=/index/product_list_1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\13edc4286aa3037a6df3bd5f1a147bbf.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\13edc4286aa3037a6df3bd5f1a147bbf.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:32:09+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.1330s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.1370s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:32:12+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0060s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:38:27+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:38:48+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0060s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:38:53+08:00 ] ::1 /matai/index.php?s=/index/product_2016.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:39:17+08:00 ] ::1 /matai/index.php?s=/index/product_2016.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:39:18+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:39:24+08:00 ] ::1 /matai/index.php?s=/index/dunnu_brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-09T13:39:27+08:00 ] ::1 /matai/index.php?s=/index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:39:30+08:00 ] ::1 /matai/index.php?s=/index/contact_us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:39:38+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0070s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:39:42+08:00 ] ::1 /matai/index.php?s=/index/product_list_2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\84b8591696d31aa10b81ba2acb36e996.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\84b8591696d31aa10b81ba2acb36e996.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:39:52+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:40:41+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:40:58+08:00 ] ::1 /matai/index.php?s=/index/product_2016.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:41:02+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0060s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:41:06+08:00 ] ::1 /matai/index.php?s=/index/product_2016.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0100s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-09T13:41:13+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0110s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-09T13:41:20+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-09T13:41:32+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T13:41:33+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0060s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:42:42+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0090s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-09T13:42:43+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0060s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T13:42:53+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T14:17:50+08:00 ] ::1 /matai/index.php?s=/index/blockbuster_season.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\f5f668df0ba435bf2d216d324bf54168.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\f5f668df0ba435bf2d216d324bf54168.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-09T14:18:08+08:00 ] ::1 /matai/index.php?s=/index/dunnu_brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T14:32:07+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0580s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0300s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-09T14:32:08+08:00 ] ::1 /matai/index.php?s=/index/product_2016.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\be0b46b2bebef24ef0d3a4ede0cdd24c.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T14:32:10+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0050s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T14:32:18+08:00 ] ::1 /matai/index.php?s=/index/product_list_2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\84b8591696d31aa10b81ba2acb36e996.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\84b8591696d31aa10b81ba2acb36e996.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T14:35:25+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0050s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T14:35:27+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T14:59:43+08:00 ] ::1 /matai/index.php?s=/index/news_4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0310s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\0b036674bf8651f0c9d0bc8d8a8f8ace.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\0b036674bf8651f0c9d0bc8d8a8f8ace.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T15:00:32+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0070s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:00:36+08:00 ] ::1 /matai/index.php?s=/index/dunnu_brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-09T15:00:45+08:00 ] ::1 /matai/index.php?s=/index/contact_us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.007000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:00:48+08:00 ] ::1 /matai/index.php?s=/index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-09T15:00:55+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:03:26+08:00 ] ::1 /matai/index.php?s=/index/contact_us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\e0b64eedb006c36d941a9fe577f8bcdc.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:03:28+08:00 ] ::1 /matai/index.php?s=/index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T15:03:32+08:00 ] ::1 /matai/index.php?s=/index/dunnu_brand.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\40204a46a4605cf7762d37cb5a9358e9.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-08-09T15:03:35+08:00 ] ::1 /matai/index.php?s=/index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\122912cd18a953de6d374dfb34995f8f.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:03:40+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0050s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:04:37+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:15:04+08:00 ] ::1 /matai/index.php?s=/index/news_4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006001s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0080s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\0b036674bf8651f0c9d0bc8d8a8f8ace.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\0b036674bf8651f0c9d0bc8d8a8f8ace.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T15:16:50+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T15:21:24+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0090s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-09T15:32:56+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0070s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0080s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T15:32:58+08:00 ] ::1 /matai/index.php?s=/index/product_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p F:\phpStudy\WWW\matai\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SHOW COLUMNS FROM `ct_document` [ RunTime:0.0070s ]
+SQL: SELECT dc.id as id,`title`,`cover_id` FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 ORDER BY level desc LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM ct_document dc INNER JOIN ct_document_article pro on dc.id=pro.id  WHERE `display` = 1 AND `category_id` = 6 AND `is_english` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ct_product_category` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name` FROM `ct_product_category` WHERE `status` = 1 AND `pid` = 0 AND `is_english` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: meta_keywords F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 8 行.
+NOTIC: [8] Undefined variable: meta_description F:\phpStudy\WWW\matai\Runtime\Cache\Home\8aaea978b58bd530e76ad59025f44185.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

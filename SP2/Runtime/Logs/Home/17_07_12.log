@@ -1,0 +1,30 @@
+[ 2017-07-12T09:02:51+08:00 ] ::1 /matai/index.php?s=/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.088501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.108502s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.160003s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.162503s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.3050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0575s ]
+SQL: SHOW COLUMNS FROM `ct_message` [ RunTime:0.0575s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ct_message` WHERE `to_uid` = 0 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `ct_slider` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `ct_slider` WHERE `status` = 1 ORDER BY `sort` DESC, `create_time` DESC LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.460008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.460008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.047500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.047500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+

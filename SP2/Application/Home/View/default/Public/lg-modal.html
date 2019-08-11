@@ -1,0 +1,67 @@
+<div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{$Think.lang.order_title}</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="ct_email" class="col-sm-2 control-label">{$Think.lang.email}</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="ct_email" placeholder="{$Think.lang.email}">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ct_name" class="col-sm-2 control-label">{$Think.lang.customer_name}</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="ct_name" placeholder="{$Think.lang.customer_name}">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ct_phone" class="col-sm-2 control-label">{$Think.lang.phone}</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="ct_phone" placeholder="{$Think.lang.phone}">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ct_message" class="col-sm-2 control-label">{$Think.lang.customer_message}</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="ct_message" rows="3" placeholder="{$Think.lang.customer_message_content}"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">{$Think.lang.close}</button>
+        <button type="button" class="btn btn-primary orderSubmit" data-dismiss="modal">{$Think.lang.save}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{$Think.lang.cart_title}</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="proAmount" class="col-sm-2 control-label">{$Think.lang.amount}</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="proAmount" placeholder="{$Think.lang.amount}">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">{$Think.lang.close}</button>
+        <button type="button" class="btn btn-primary addCart" data-dismiss="modal">{$Think.lang.save}</button>
+      </div>
+    </div>
+  </div>
+</div>

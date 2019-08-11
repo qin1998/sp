@@ -1,0 +1,300 @@
+[ 2019-08-05T09:00:54+08:00 ] ::1 /SP2/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020675s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036534s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.093010s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.093076s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0058s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: meta_title D:\phpStudy\WWW\SP2\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.039727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039829s ]
+
+[ 2019-08-05T09:00:55+08:00 ] ::1 /sp2/index.php/index/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005529s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005096s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005212s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0065s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2019-08-05T09:00:58+08:00 ] ::1 /sp2/index.php/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003300s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003363s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0057s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\SP2\Application\Home\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\SP2\Application\Home\Controller\IndexController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2019-08-05T09:01:01+08:00 ] ::1 /sp2/index.php/index/products.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002603s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.008598s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.008650s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0055s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\SP2\Application\Home\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\WWW\SP2\Application\Home\Controller\IndexController.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2019-08-05T09:01:03+08:00 ] ::1 /sp2/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006298s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003621s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003689s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0054s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: meta_title D:\phpStudy\WWW\SP2\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2019-08-05T09:01:03+08:00 ] ::1 /sp2/index.php/index/js/jquery-1.11.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008212s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005246s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005346s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0072s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0029s ]
+
+[ 2019-08-05T09:01:03+08:00 ] ::1 /sp2/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005675s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009439s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002849s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002911s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0110s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: meta_title D:\phpStudy\WWW\SP2\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2019-08-05T09:01:04+08:00 ] ::1 /sp2/index.php/index/js/imagesloaded.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003611s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005451s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005521s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0218s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+
+[ 2019-08-05T09:01:04+08:00 ] ::1 /sp2/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003278s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002613s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002660s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0050s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: meta_title D:\phpStudy\WWW\SP2\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004374s ]
+
+[ 2019-08-05T09:01:04+08:00 ] ::1 /sp2/index.php/index/js/smartresize.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005600s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003531s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003585s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0057s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+
+[ 2019-08-05T09:01:04+08:00 ] ::1 /sp2/index.php/index/src/jquery.skidder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.005501s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.005677s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0061s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2019-08-05T09:01:04+08:00 ] ::1 /sp2/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001455s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0048s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: meta_title D:\phpStudy\WWW\SP2\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2019-08-05T09:01:04+08:00 ] ::1 /sp2/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001494s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `ct_config` [ RunTime:0.0049s ]
+SQL: SELECT `type`,`name`,`value` FROM `ct_config` WHERE `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: meta_title D:\phpStudy\WWW\SP2\Runtime\Cache\Home\769e70f2e46f34ceb60619bbda5e4691.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+

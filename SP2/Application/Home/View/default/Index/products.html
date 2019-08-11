@@ -1,0 +1,53 @@
+<extend name="Base/common" />
+<block name="content">
+    <div>
+        <img src="__HS__/img/1.jpg"style="display:block;" width="100%;"alt="">
+    </div>
+<!-- 第二块 -->
+    <div class="paodu wd1024">
+        <div class="paoduy ">产品中心</div>
+        <div class="paoduyy">PRODUCT CENTER</div>
+    </div>
+    <!-- 三-->
+    
+    <div class="ption">
+        <div class="ption2 wd1024">
+            <volist name="first_list" id="vo">
+            <div class="ption1 "><a class="product-a active" href="{:U('products', ['product_cate_id' => $vo['id']])}">{$vo.title}</a></div>
+            </volist>
+            <div style="clear:both;"></div>
+        </div>
+    </div> 
+    <div class="back products">   
+        <div class="ji"></div> 
+        <!-- 第四块 -->
+        <div class="bar0 wd1024">
+            <volist name="products" id="vo">
+            <div class="photo_frame">
+                <div class="product-item">
+                    <a href="{:U('product_detail', ['id' => $vo['id']])}">
+                    <div class="photo_frame1"><img src="{$vo.cover_img}" alt=""></div>
+                    <div class="font_sizee">
+                        <eq name="langs" value="zh">
+                        <div class="pro-title">{$vo.title}</div>
+                        </eq>
+                        <eq name="langs" value="en">
+                            <div class="pro-title">{$vo.en_title}</div>
+                        </eq>
+                        <!-- <div class="pro-category">槽王开槽机</div>
+                        <div style="clear:both;"></div> -->
+                    </div>
+                    </a>
+                </div>
+            </div>
+            </volist>
+            <div style="clear:both;"></div>
+            <ul class="xu" >
+                    {$page}
+                </ul>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</div>  
+   
+</block>
